@@ -35,6 +35,16 @@
     [super didReceiveMemoryWarning];
 }
 - (IBAction)btnLogin:(id)sender {
+    [PFUser logInWithUsernameInBackground:_strUsername password:_strPassword
+                                    block:^(PFUser *user, NSError *error) {
+                                        if (user) {
+                                            // Do stuff after successful login.
+                                            NSLog(@"done");
+                                        } else {
+                                            // The login failed. Check error to see why.
+                                            NSLog(@"fail");
+                                        }
+                                    }];
 }
 
 @end
