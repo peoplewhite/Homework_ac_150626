@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F954ACE1B3BF6E600029D53 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F954ACD1B3BF6E600029D53 /* TableViewController.m */; };
 		4FBD81161B3BE9F0005C7403 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD81151B3BE9F0005C7403 /* main.m */; };
 		4FBD81191B3BE9F0005C7403 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD81181B3BE9F0005C7403 /* AppDelegate.m */; };
 		4FBD811C1B3BE9F0005C7403 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD811B1B3BE9F0005C7403 /* ViewController.m */; };
@@ -18,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		406C4142FC105EBC404F452B /* libPods-Homework_ac_150625_1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Homework_ac_150625_1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F954ACC1B3BF6E600029D53 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		4F954ACD1B3BF6E600029D53 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		4FBD81101B3BE9F0005C7403 /* Homework_ac_150625_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework_ac_150625_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FBD81141B3BE9F0005C7403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FBD81151B3BE9F0005C7403 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 				4FBD81181B3BE9F0005C7403 /* AppDelegate.m */,
 				4FBD811A1B3BE9F0005C7403 /* ViewController.h */,
 				4FBD811B1B3BE9F0005C7403 /* ViewController.m */,
+				4F954ACC1B3BF6E600029D53 /* TableViewController.h */,
+				4F954ACD1B3BF6E600029D53 /* TableViewController.m */,
 				4FBD811D1B3BE9F0005C7403 /* Main.storyboard */,
 				4FBD81201B3BE9F0005C7403 /* Images.xcassets */,
 				4FBD81221B3BE9F0005C7403 /* LaunchScreen.xib */,
@@ -231,6 +236,7 @@
 				4FBD811C1B3BE9F0005C7403 /* ViewController.m in Sources */,
 				4FBD81191B3BE9F0005C7403 /* AppDelegate.m in Sources */,
 				4FBD81161B3BE9F0005C7403 /* main.m in Sources */,
+				4F954ACE1B3BF6E600029D53 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -47,11 +47,38 @@
                     <connections>
                         <outlet property="tfPassword" destination="0FT-QB-FQp" id="XrI-zg-ij4"/>
                         <outlet property="tfUsername" destination="bBg-HW-J86" id="mcj-2T-dDR"/>
+                        <segue destination="kiC-07-KaR" kind="modal" id="dDm-Kn-v00"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="369" y="365"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="ZRn-1y-Hli">
+            <objects>
+                <tableViewController id="kiC-07-KaR" customClass="TableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="2Cq-Ss-Nhq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="wh1-Oa-Ais">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wh1-Oa-Ais" id="VPZ-LP-KsB">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="kiC-07-KaR" id="vxE-6c-Q93"/>
+                            <outlet property="delegate" destination="kiC-07-KaR" id="Ep5-nT-i9U"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cbk-RA-QCo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="792" y="359"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
