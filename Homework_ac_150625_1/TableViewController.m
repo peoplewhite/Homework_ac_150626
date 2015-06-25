@@ -49,8 +49,10 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
-//    cell.textLabel.text = [_delegate.arrShoppingCart[indexPath.row][@"name"] stringByAppendingString:_delegate.arrShoppingCart[indexPath.row][@"price"]];
-    cell.textLabel.text = _delegate.arrShoppingCart[indexPath.row][@"name"];
+    NSString *strPrice =[NSString stringWithFormat:@"    $%@", _delegate.arrShoppingCart[indexPath.row][@"price"]];
+    
+    cell.textLabel.text = [_delegate.arrShoppingCart[indexPath.row][@"name"] stringByAppendingString:strPrice];
+    
     
     return cell;
 }
