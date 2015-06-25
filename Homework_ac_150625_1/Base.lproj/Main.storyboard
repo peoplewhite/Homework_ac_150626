@@ -47,7 +47,7 @@
                     <connections>
                         <outlet property="tfPassword" destination="0FT-QB-FQp" id="XrI-zg-ij4"/>
                         <outlet property="tfUsername" destination="bBg-HW-J86" id="mcj-2T-dDR"/>
-                        <segue destination="kiC-07-KaR" kind="modal" id="dDm-Kn-v00"/>
+                        <segue destination="kiC-07-KaR" kind="modal" identifier="move" id="dDm-Kn-v00"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -63,7 +63,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="wh1-Oa-Ais">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="wh1-Oa-Ais">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wh1-Oa-Ais" id="VPZ-LP-KsB">
                                     <autoresizingMask key="autoresizingMask"/>

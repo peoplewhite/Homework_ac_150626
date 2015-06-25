@@ -11,6 +11,8 @@
 
 @interface AppDelegate ()
 
+
+
 @end
 
 @implementation AppDelegate
@@ -21,6 +23,8 @@
     [Parse setApplicationId:@"R70Kjh6oqrlr5p1BrbmlHbhPxwnIjhxfdTrOWxKc"
                   clientKey:@"QbbajnWPxGjpZsgaOaFMnhuZEKVBvtWYrg5iWeDR"];
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    _arrShoppingCart = [[NSMutableArray alloc]init];
     
     return YES;
 }

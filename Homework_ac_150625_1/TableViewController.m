@@ -7,9 +7,10 @@
 //
 
 #import "TableViewController.h"
+#import "AppDelegate.h"
 
 @interface TableViewController ()
-
+@property AppDelegate *delegate;
 @end
 
 @implementation TableViewController
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    _delegate = [[UIApplication sharedApplication]delegate];
+    
+    NSLog(@"%@", _delegate.arrShoppingCart);
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -32,26 +36,25 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return _delegate.arrShoppingCart.count;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
-    // Configure the cell...
+//    cell.textLabel.text = [_delegate.arrShoppingCart[indexPath.row][@"name"] stringByAppendingString:_delegate.arrShoppingCart[indexPath.row][@"price"]];
+    cell.textLabel.text = _delegate.arrShoppingCart[indexPath.row][@"name"];
     
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
