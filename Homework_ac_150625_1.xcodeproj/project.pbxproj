@@ -15,6 +15,7 @@
 		4FBD811F1B3BE9F0005C7403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FBD811D1B3BE9F0005C7403 /* Main.storyboard */; };
 		4FBD81211B3BE9F0005C7403 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FBD81201B3BE9F0005C7403 /* Images.xcassets */; };
 		4FBD81241B3BE9F0005C7403 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FBD81221B3BE9F0005C7403 /* LaunchScreen.xib */; };
+		4FD34EF11B3C5290003247FA /* hw3TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD34EF01B3C5290003247FA /* hw3TableViewController.m */; };
 		60A8901B9A8568085EFA3017 /* libPods-Homework_ac_150625_1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 406C4142FC105EBC404F452B /* libPods-Homework_ac_150625_1.a */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,8 @@
 		4FBD81231B3BE9F0005C7403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4FBD812E1B3BE9F0005C7403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FBD812F1B3BE9F0005C7403 /* Homework_ac_150625_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Homework_ac_150625_1Tests.m; sourceTree = "<group>"; };
+		4FD34EEF1B3C5290003247FA /* hw3TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hw3TableViewController.h; path = ../hw3TableViewController.h; sourceTree = "<group>"; };
+		4FD34EF01B3C5290003247FA /* hw3TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = hw3TableViewController.m; path = ../hw3TableViewController.m; sourceTree = "<group>"; };
 		92AF3215B99C77AEE147692C /* Pods-Homework_ac_150625_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework_ac_150625_1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Homework_ac_150625_1/Pods-Homework_ac_150625_1.release.xcconfig"; sourceTree = "<group>"; };
 		AA099B5486DB481CA603A1FC /* Pods-Homework_ac_150625_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework_ac_150625_1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Homework_ac_150625_1/Pods-Homework_ac_150625_1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +94,8 @@
 				4F954AD61B3C469300029D53 /* SingletonObject.m */,
 				4F954ACC1B3BF6E600029D53 /* TableViewController.h */,
 				4F954ACD1B3BF6E600029D53 /* TableViewController.m */,
+				4FD34EEF1B3C5290003247FA /* hw3TableViewController.h */,
+				4FD34EF01B3C5290003247FA /* hw3TableViewController.m */,
 				4FBD811D1B3BE9F0005C7403 /* Main.storyboard */,
 				4FBD81201B3BE9F0005C7403 /* Images.xcassets */,
 				4FBD81221B3BE9F0005C7403 /* LaunchScreen.xib */,
@@ -242,6 +247,7 @@
 				4F954AD71B3C469300029D53 /* SingletonObject.m in Sources */,
 				4FBD81191B3BE9F0005C7403 /* AppDelegate.m in Sources */,
 				4FBD81161B3BE9F0005C7403 /* main.m in Sources */,
+				4FD34EF11B3C5290003247FA /* hw3TableViewController.m in Sources */,
 				4F954ACE1B3BF6E600029D53 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
