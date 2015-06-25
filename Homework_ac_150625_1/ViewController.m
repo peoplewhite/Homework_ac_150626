@@ -46,13 +46,7 @@
     [PFUser logInWithUsernameInBackground:_strUsername password:_strPassword
                                     block:^(PFUser *user, NSError *error) {
                                         if (user) {
-                                            
-                                            
                                             [self saveData2GV];
-                                            
-                                            
-                                            
-                                            
                                         } else {
                                             
                                         }
