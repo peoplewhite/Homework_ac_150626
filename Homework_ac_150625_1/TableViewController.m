@@ -21,6 +21,10 @@
     _delegate = [[UIApplication sharedApplication]delegate];
     
     NSLog(@"%@", _delegate.arrShoppingCart);
+    
+    
+    SingletonObject *obj = [SingletonObject sharedInstance];
+    NSLog(@"%@", obj.strTest);
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     

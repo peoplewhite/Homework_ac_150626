@@ -31,6 +31,12 @@
     
     
     
+    SingletonObject *obj = [SingletonObject sharedInstance];
+    NSLog(@"%@", obj.strTest);
+    obj.strTest = @"changed. Hello Beautiful";
+    
+    
+    
 }
 - (void)saveUsername:(UITextField *)username {
     _strUsername = username.text;

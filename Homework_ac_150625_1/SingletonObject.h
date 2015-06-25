@@ -10,4 +10,7 @@
 
 @interface SingletonObject : NSObject
 
+@property NSString *strTest;
++ (id)sharedInstance;
+
 @end
