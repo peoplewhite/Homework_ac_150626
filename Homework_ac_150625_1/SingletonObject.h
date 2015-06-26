@@ -11,6 +11,7 @@
 @interface SingletonObject : NSObject
 
 @property NSString *strTest;
+@property NSMutableArray *arrShoppingCart_hw3;
 + (id)sharedInstance;
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "SingletonObject.h"
 @interface hw3TableViewController : UITableViewController
 
 @end
